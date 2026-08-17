@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cybrpnk Music Player</title>
+        <link rel="stylesheet" href="cybrpnk-music-player.css">
+    </head>
+    <body>
+        <!-- music player container -->
+        <div class="player-container">
+            <!-- volume slider and mute btn section -->
+            <div class="volume-cred-container">
+                <button type="button" id="cred-btn" class="btn" aria-label="display credits">
+                    <span class="icon-wrapper">
+                        <img src="./assets/svg/info.svg" alt="" class="svg" aria-hidden="true">
+                        <span class="tooltip" aria-hidden="true">Credits [ i ]</span>
+                    </span>
+                </button>
+                <input type="range" id="volume-slider" step="0.01" min="0" max="1" aria-label="adjust volume">
+                <span class="volume-tooltip tooltip" aria-hidden="true">Vol [ &and; &or; ]</span>
+                <button type="button" id="mute-btn" class="btn" aria-label="enable mute">
+                    <span class="icon-wrapper">
+                        <img src="./assets/svg/volume.svg" alt="" class="svg" aria-hidden="true">
+                        <span id="mute-tooltip" class="tooltip" aria-hidden="true">Mute [ m ]</span>
+                    </span>
+                </button>
+            </div>
+            <!-- music section -->
+            <div class="music-container">
+                <!-- album art section -->
+                <div class="album-cover-container">
+                    <img id="album-cover" src="./assets/imgs/main-cover.jpg" alt="album cover">
+                </div>
+                <!-- track info section -->
+                <div class="name-container">
+                    <p id="track-name"></p>
+                    <p id="artist-name"></p>
+                    <p id="album-name"></p>
+                </div>
+                <!-- time stamp and progress bar section -->
+                <div class="time-stamp">
+                    <p id="start-time"></p>
+                    <input type="range" id="progress-bar" min="0" aria-label="track progress">
+                    <span class="progress-tooltip tooltip" aria-hidden="true">&#177;5s [ &lt; &gt; ]</span>
+                    <p id="end-time"></p>
+                </div>
+                <!-- music player btns section -->
+                <div class="btns-container">
+                    <button type="button" id="shuffle-btn" class="btn" aria-label="enable shuffle">
+                        <span class="icon-wrapper">
+                            <img src="./assets/svg/shuffle.svg" alt="" class="svg" aria-hidden="true">
+                            <span id="shuffle-tooltip" class="tooltip" aria-hidden="true">Shuffle [ s ]</span>
+                        </span>
+                    </button>
+                    <button type="button" id="prev-btn" class="btn prev-next-btn" aria-label="play previous track">
+                        <span class="icon-wrapper">
+                            <img src="./assets/svg/previous.svg" alt="" class="svg" aria-hidden="true">
+                            <span class="tooltip" aria-hidden="true">Previous [ p ]</span>
+                        </span>
+                    </button>
+                    <button type="button" id="play-pause-btn" class="btn play-pause-btn" aria-label="play track">
+                        <span class="icon-wrapper">
+                            <img src="./assets/svg/play.svg" alt="" class="svg" aria-hidden="true">
+                            <span id="play-pause-tooltip" class="tooltip" aria-hidden="true">Play [ space ]</span>
+                        </span>
+                    </button>
+                    <button type="button" id="next-btn" class="btn prev-next-btn" aria-label="play next track">
+                        <span class="icon-wrapper">
+                            <img src="./assets/svg/next.svg" alt="" class="svg" aria-hidden="true">
+                            <span class="tooltip" aria-hidden="true">Next [ n ]</span>
+                        </span>
+                    </button>
+                    <button type="button" id="repeat-btn" class="btn" aria-label="enable repeat playlist">
+                        <span class="icon-wrapper">
+                            <img src="./assets/svg/repeat.svg" alt="" class="svg" aria-hidden="true">
+                            <span id="repeat-tooltip" class="tooltip" aria-hidden="true">Repeat [ r ]</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <!-- track list tray section -->
+            <div class="track-queue-wrapper">
+                <div id="track-queue-container"></div>
+            </div>
+            <button type="button" id="queue-btn" class="btn" aria-label="open track list">
+                <span class="icon-wrapper">
+                    <img src="./assets/svg/cyberpunk-forum.svg" alt="" aria-hidden="true" class="svg cybrpnk-logo">
+                    <span class="tooltip" aria-hidden="true">Track List [ t ]</span>
+                </span>
+            </button>
+        </div>
+        <!-- modal dialog section -->
+        <dialog id="cred-dialog" tabindex="-1">
+            <div class="cred-heading">
+                <h2>Artwork and Music Credits</h2>
+                <button type="button" id="close-cred" class="btn" aria-label="close modal dialog">
+                    <span class="icon-wrapper">
+                        <img src="./assets/svg/close.svg" alt="" aria-hidden="true" class="svg">
+                        <span class="tooltip" aria-hidden="true">Close [ Esc ]</span>
+                </span>
+                </button>
+            </div>
+            <div class="dialog-content">
+                <h3>Artwork:</h3>
+                <div id="artwork-cred"></div>
+                <h3>Music:</h3>
+                <div id="music-cred"></div>
+                <hr>
+                <p class="disclaimer">
+                    Designed and developed by <a href="https://github.com/nihilistic-lex" target="_blank">&lt;lexiCodes/&gt;</a> &copy; 2026<br>
+                    Inspired by <a href="https://www.cyberpunk.net/gb/en/" target="_blank">Cyberpunk 2077</a> and features imagery from <a href="https://www.cdprojektred.com/en" target="_blank">CD PROJEKT RED</a>.<br>
+                    Third-party music and artwork are credited to their respective creators above. This website is a non-commercial fan project created for educational and portfolio purposes.
+                </p>
+            </div>
+        </dialog>
+        <script src="cybrpnk-music-player.js"></script>
+    </body>
+</html>
+
+<!-- cspell:ignore cybrpnk যlহ Huzeyfe Turan projekt -->

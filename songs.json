@@ -1,0 +1,207 @@
+{    
+    "credits": {
+        "musicSrc": {
+            "name": "Pixabay",
+            "siteSrc": "https://pixabay.com/music/"
+        },
+        "artworkSrc": {
+            "mainName": "Huzeyfe Turan",
+            "mainSrc": "https://unsplash.com/@huzeyfet",
+            "coverName": "Solen Feyissa",
+            "coverSrc": "https://unsplash.com/@solenfeyissa",
+            "siteSrc": "https://unsplash.com/"
+        }
+    },
+
+    "tracks": [
+        {
+            "title": "Cyberpunk Planet",
+            "artist": "AleXZavesa",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-1.jpg",
+            "src": "./assets/songs/alexzavesa_-_cyberpunk_planet.mp3",
+            "artistCred": "https://pixabay.com/users/alexzavesa-24262182/",
+            "trackCred": "https://pixabay.com/music/dance-cyberpunk-powerful-cyberpunk-planet-511391/"
+        },
+        {
+            "title": "Cyber Dark Future",
+            "artist": "Dmitry Taras",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-2.jpg",
+            "src": "./assets/songs/dmitry_taras_-_cyber_dark_future.mp3",
+            "artistCred": "https://pixabay.com/users/soundgalleryby-21339672/",
+            "trackCred": "https://pixabay.com/music/upbeat-cyber-dark-future-electronic-sport-industrial-technology-194353/"
+        },
+        {
+            "title": "The Final Race",
+            "artist": "DIMMYSAD",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-3.jpg",
+            "src": "./assets/songs/dimmysad_-_the_final_race.mp3",
+            "artistCred": "https://pixabay.com/users/dimmysad-48986751/",
+            "trackCred": "https://pixabay.com/music/techno-trance-the-final-race-546891/"
+        },
+        {
+            "title": "Phonk House",
+            "artist": "Tony Vodnik",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-4.jpg",
+            "src": "./assets/songs/kulakovka_-_phonk_house.mp3",
+            "artistCred": "https://pixabay.com/users/kulakovka-47183261/",
+            "trackCred": "https://pixabay.com/music/upbeat-phonk-house-308478/"
+        },
+        {
+            "title": "Cyber Gaming",
+            "artist": "HumanStudioEDM",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-5.jpg",
+            "src": "./assets/songs/humanstudioedm_-_cyber-gaming.mp3",
+            "artistCred": "https://pixabay.com/users/humanstudioedm-54798937/",
+            "trackCred": "https://pixabay.com/music/electronic-cyberpunk-gaming-505294/"
+        },
+        {
+            "title": "War",
+            "artist": "Pavel Prakapovich",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-6.jpg",
+            "src": "./assets/songs/energysound_-_war.mp3",
+            "artistCred": "https://pixabay.com/users/energysound-41316904/",
+            "trackCred": "https://pixabay.com/music/electronic-war-cyberpunk-music-482889/"
+        },
+        {
+            "title": "Machine Supremacy",
+            "artist": "AleXZavesa",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-7.jpg",
+            "src": "./assets/songs/alexzavesa_-_machine_supremacy.mp3",
+            "artistCred": "https://pixabay.com/users/alexzavesa-24262182/",
+            "trackCred": "https://pixabay.com/music/electronic-electro-energy-cyberpunk-machine-supremacy-506795/"
+        },
+        {
+            "title": "Mechanical",
+            "artist": "Dmitry Taras",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-8.jpg",
+            "src": "./assets/songs/dmitry_taras_-_mechanical.mp3",
+            "artistCred": "https://pixabay.com/users/soundgallerybydmitrytaras-11640913/",
+            "trackCred": "https://pixabay.com/music/upbeat-mechanical-future-ai-robotic-cyberpunk-night-dubstep-electro-183009/"
+        },
+        {
+            "title": "DARK MATTER PULLING UNDER",
+            "artist": "Bella Wave",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-9.jpg",
+            "src": "./assets/songs/bellawave_-_dark_matter_pulling_under.mp3",
+            "artistCred": "https://pixabay.com/users/bellawave-50843628/",
+            "trackCred": "https://pixabay.com/music/phonk-dark-matter-pulling-under-537984/"
+        },
+        {
+            "title": "Hybrid Epic Action",
+            "artist": "DIMMYSAD",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-10.jpg",
+            "src": "./assets/songs/dimmysad_-_hybrid_epic_action.mp3",
+            "artistCred": "https://pixabay.com/users/dimmysad-48986751/",
+            "trackCred": "https://pixabay.com/music/orchestral-hybrid-epic-action-578908/"
+        },
+        {
+            "title": "Cyberpunk",
+            "artist": "HumanStudioEDM",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-11.jpg",
+            "src": "./assets/songs/humanstudioedm_-_cyberpunk.mp3",
+            "artistCred": "https://pixabay.com/users/humanstudioedm-54798937/",
+            "trackCred": "https://pixabay.com/music/phonk-cyberpunk-523759/"
+        },
+        {
+            "title": "Epic Cyber Rock",
+            "artist": "Alec Koff",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-12.jpg",
+            "src": "./assets/songs/alec_koff_-_epic_cyber_rock.mp3",
+            "artistCred": "https://pixabay.com/users/alec_koff-54645061/",
+            "trackCred": "https://pixabay.com/music/hard-rock-epic-cyber-rock-industrial-metal-493403/"
+        },
+        {
+            "title": "Implants",
+            "artist": "AleXZavesa",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-13.jpg",
+            "src": "./assets/songs/alexzavesa_-_implants.mp3",
+            "artistCred": "https://pixabay.com/users/alexzavesa-24262182/",
+            "trackCred": "https://pixabay.com/music/beats-cyberpunk-dark-implants-512560/"
+        },
+        {
+            "title": "Lawless",
+            "artist": "Florews",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-14.jpg",
+            "src": "./assets/songs/florews_-_lawless.mp3",
+            "artistCred": "https://pixabay.com/users/florews-2510275/",
+            "trackCred": "https://pixabay.com/music/upbeat-lawless-cyberpunk-331880/"
+        },
+        {
+            "title": "Electro Sport",
+            "artist": "Dmitry Taras",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-15.jpg",
+            "src": "./assets/songs/dmitry_taras_-_electro_sport.mp3",
+            "artistCred": "https://pixabay.com/users/soundgallerybydmitrytaras-11640913/",
+            "trackCred": "https://pixabay.com/music/electro-electro-sport-music-cyberpunk-futuristic-background-393653/"
+        },
+        {
+            "title": "Evasion",
+            "artist": "Evgeny Bardyuzha",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-16.jpg",
+            "src": "./assets/songs/evgeny_bardyuzha_-_evasion.mp3",
+            "artistCred": "https://pixabay.com/users/evgeny_bardyuzha-25235210/",
+            "trackCred": "https://pixabay.com/music/electro-evasion-dark-cyberpunk-action-123274/"
+        },
+        {
+            "title": "Hard Cyberpunk",
+            "artist": "Tony Vodnik",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-17.jpg",
+            "src": "./assets/songs/kulakovka_-_hard_cyberpunk.mp3",
+            "artistCred": "https://pixabay.com/users/kulakovka-47183261/",
+            "trackCred": "https://pixabay.com/music/upbeat-hard-cyberpunk-281149/"
+        },
+        {
+            "title": "Inside The Conflict",
+            "artist": "AleXZavesa",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-18.jpg",
+            "src": "./assets/songs/alexzavesa_-_inside_the_conflict.mp3",
+            "artistCred": "https://pixabay.com/users/alexzavesa-24262182/",
+            "trackCred": "https://pixabay.com/music/electro-cyberpunk-aggressive-inside-the-conflict-463049/"
+        },
+        {
+            "title": "Phonk",
+            "artist": "Mikhail Smusev",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-19.jpg",
+            "src": "./assets/songs/sigmamusicart_-_phonk.mp3",
+            "artistCred": "https://pixabay.com/users/sigmamusicart-36860929/",
+            "trackCred": "https://pixabay.com/music/upbeat-phonk-phonk-music-292971/"
+        },
+        {
+            "title": "Icebreaker",
+            "artist": "Vasil Yatsevich",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-20.jpg",
+            "src": "./assets/songs/vasilyatsevich_-_icebreaker.mp3",
+            "artistCred": "https://pixabay.com/users/vasilyatsevich-601514/",
+            "trackCred": "https://pixabay.com/music/upbeat-icebreaker-cyberpunk-action-trailer-video-game-330421/"
+        },
+        {
+            "title": "Mechanical Future",
+            "artist": "Dmitry Taras",
+            "album": "Pixabay",
+            "cover": "./assets/imgs/cover-img-21.jpg",
+            "src": "./assets/songs/dmitry_taras_-_mechanical_future.mp3",
+            "artistCred": "https://pixabay.com/users/soundgallerydt-40595064/",
+            "trackCred": "https://pixabay.com/music/upbeat-cyberpunk-action-mechanical-future-dark-synthwave-rave-ai-177248/"
+        }
+    ]
+}
