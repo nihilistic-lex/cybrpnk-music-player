@@ -39,4 +39,4 @@ Inspired by [Cyberpunk 2077](https://www.cyberpunk.net/gb/en/) and features imag
 
 This website is a non-commercial fan project created for educational and portfolio purposes.
 
-Created by [<lexiCodes/>](https://github.com/nihilistic-lex)
+Created by [`<lexiCodes/>`](https://github.com/nihilistic-lex)
